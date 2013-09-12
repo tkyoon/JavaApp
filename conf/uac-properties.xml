@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>UACentre Properties</comment>
+	<entry key="excel.full.path">C:\\uacExcelReg</entry>
+	<entry key="excel.file.name">1.xlsx</entry>
+	<entry key="data.folder.name">data</entry>
+</properties>

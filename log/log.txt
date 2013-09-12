@@ -1,0 +1,4 @@
+main> [2013-09-12 09:10:06] [DefaultListableBeanFactory] [246] [DEBUG] Returning cached instance of singleton bean 'sqlSessionFactory' 
+main> [2013-09-12 09:10:06] [DefaultListableBeanFactory] [246] [DEBUG] Returning cached instance of singleton bean 'execute' 
+main> [2013-09-12 09:10:06] [Execute] [67] [INFO] @@ Program Start @@ 
+main> [2013-09-12 09:10:06] [DataSourceTransactionManager] [365] [DEBUG] Creating new transaction with name [kr.co.jcone.uac.service.impl.RegisterServiceImpl.insertItem]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-Exception 
