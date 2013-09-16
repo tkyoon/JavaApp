@@ -34,7 +34,17 @@
         -->
     </appender>
 
-    <!-- 특정 크기마다 백업하며 로그 -->
+    <!-- 일마다 백업하며 로그 -->
+    <appender name="rolling" class="org.apache.log4j.DailyRollingFileAppender">
+           <param name="file" value="./log/log" />
+           <param name="DatePattern" value="'.'yyyy-MM-dd'.txt'" />
+           <param name="encoding" value="UTF-8" />
+           <layout class="org.apache.log4j.PatternLayout">
+                   <param name="ConversionPattern" value="%t> [%d{yyyy-MM-dd HH:mm:ss}] [%c{1}] [%L] [%p] %m %n" />
+           </layout>
+    </appender>
+
+    <!-- 특정 크기마다 백업하며 로그
     <appender name="rolling" class="org.apache.log4j.RollingFileAppender">
            <param name="file" value="./log/log.txt" />
            <param name="Append" value="true" />
@@ -44,6 +54,7 @@
                    <param name="ConversionPattern" value="%t> [%d{yyyy-MM-dd HH:mm:ss}] [%c{1}] [%L] [%p] %m %n" />
            </layout>
     </appender>
+     -->
 
     <logger name="com.ibatis" additivity="false">
 		<level value="DEBUG" />
